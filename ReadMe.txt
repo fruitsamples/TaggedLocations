@@ -10,38 +10,34 @@ The application extends the the completed project from the Core Data Tutorial fo
 Events have a to-many relationship to tags (which have an inverse to-many relationship to events). Tags have a name which describes a feature of an event. Tags are displayed in a second table view; when a tag is related to the selected event, a check mark is displayed in the corresponding row.
 
 
-
 ===========================================================================
 BUILD REQUIREMENTS:
 
-Xcode 3.1 or later, Mac OS X v10.5.7 or later, iPhone OS 3.0
+iOS 4.0 SDK
+
 
 ===========================================================================
 RUNTIME REQUIREMENTS:
 
-Mac OS X v10.5.7 or later, iPhone OS 3.0
+iPhone OS 3.2 or later
 
 ===========================================================================
 PACKAGING LIST:
 
 View Controllers
 ----------------
-
 RootViewController.{h,m}
 The table view controller responsible for displaying the list of events, supporting additional functionality:
  * Addition of new new events
  * Deletion of existing events using UITableView's tableView:commitEditingStyle:forRowAtIndexPath: method
  * Editing an event's name
 
-
 TagSelectionController.{h,m}
 The table view controller responsible for displaying and editing tags.
 The rows show a check mark if the selected event is related to the corresponding tag. 
 
-
 Model
 -----
-
 TaggedLocations.xcdatamodel
 The Core Data managed object model for the application.
 
@@ -51,10 +47,8 @@ A Core Data managed object class to represent an event containing geographical c
 Tag.{h,m}
 A Core Data managed object class to represent a tag.
 
-
 Table View Cells
 ----------------
-
 EventTableViewCell.{h,m}
 EventTableViewCell.xib
 Table view cell to display information about an event.
@@ -71,7 +65,6 @@ The File's Owner is the TagSelectionController table view controller which acts 
 
 Application configuration
 -------------------------
-
 LocationsAppDelegate.{h,m}
 Configures the Core Data stack and the first view controller.
 
@@ -82,6 +75,12 @@ Loaded automatically by the application. Creates the application's delegate and 
 ===========================================================================
 CHANGES FROM PREVIOUS VERSIONS:
 
+Version 1.3
+- Added CFBundleIconFiles in Info.plist.
+
+Version 1.2
+- Upgraded project to build with the iOS 4.0 SDK.
+
 Version 1.1
 - Added identifier to table view cell in EditableTableViewCell.xib.
 
@@ -89,4 +88,4 @@ Version 1.0
 - First version.
 
 ===========================================================================
-Copyright (C) 2009 Apple Inc. All rights reserved.
+Copyright (C) 2009-2010 Apple Inc. All rights reserved.
