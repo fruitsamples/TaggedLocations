@@ -82,6 +82,9 @@ Loaded automatically by the application. Creates the application's delegate and 
 ===========================================================================
 CHANGES FROM PREVIOUS VERSIONS:
 
+Version 1.1
+- Added identifier to table view cell in EditableTableViewCell.xib.
+
 Version 1.0
 - First version.
 

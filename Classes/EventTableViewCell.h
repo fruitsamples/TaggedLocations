@@ -5,7 +5,7 @@
  The cell layout is defined in the accompanying nib file -- EventTableViewCell.
  Cells are loaded by the root view controller (the File's Owner), which is the target of the tags button's action.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

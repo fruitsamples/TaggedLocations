@@ -6,7 +6,7 @@
  * Deletion of existing events using UITableView's tableView:commitEditingStyle:forRowAtIndexPath: method.
  * Editing an event's name.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

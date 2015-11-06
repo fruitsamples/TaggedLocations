@@ -3,7 +3,7 @@
      File: Tag.h
  Abstract: A Core Data managed object class to represent a tag for events.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

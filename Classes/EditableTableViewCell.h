@@ -4,7 +4,7 @@
  Abstract: Table view cell to present an editable text field to display tag names.
  The cell layout is defined in the accompanying nib file -- EditableTableViewCell.
  
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following

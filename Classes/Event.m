@@ -3,7 +3,7 @@
      File: Event.m
  Abstract: A Core Data managed object class to represent an event containing geographical coordinates and a time stamp.
  An event has a to-many relationship to Tag which represents tags associated with the event.
-  Version: 1.0
+  Version: 1.1
  
  Disclaimer: IMPORTANT:  This Apple software is supplied to you by Apple
  Inc. ("Apple") in consideration of your agreement to the following
